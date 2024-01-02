@@ -11,14 +11,14 @@ public class PersistentObjectSpawner : MonoBehaviour
 
     //Private State
 
-    static bool hasSpawed = false;
+    static bool hasSpawned = false;
 
     //Private
     private void Awake()
     {
-        if (hasSpawed) return;
+        if (hasSpawend) return;
         SpawnPersistentObject();
-        hasSpawed = true;
+        hasSpawend = true;
     }
 
     private void SpawnPersistentObject()
